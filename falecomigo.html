@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fale Comigo</title>
+<link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Link para Font Awesome -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Link para Bootstrap CSS -->
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="logo/logo2.png" alt="Logo" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link custom-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-link" href="sobre.html">Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-link" href="servicos.html">Serviços</a>
+            </li>
+            
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="fale-comigo">
+    
+    <div class="container-fale">
+      <h1>Fale comigo</h1>
+      <div class="fale-caixa">
+      <h2>Envie uma mensagem</h2>
+      <form id="contact-form" action="https://formsubmit.co/camillalarissa07@gmail.com"
+      method="post">
+        <div class="form-group">
+          <label for="name">Seu nome</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email que mais utiliza?</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefone para contato com DDD</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Assunto</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_autoresponse"
+                value="Recebi sua Mensagem,obrigado pelo contato, e logo entrarei em contato para agendarmos sua consulta!"
+              />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+  </section>
+  
+  <section id="contato">
+    <div class="container">
+      <h3>Contato</h3>
+      <ul class="contact-info">
+        <li class="icons">
+          <i class="fas fa-envelope fa-xl"></i> <a href="mailto:seuemail@example.com" target="_blank"
+          >brunag.nutri1@gmail.com</a>
+        </li>
+        
+        <li class="icons">
+          <i class="fab fa-whatsapp fa-xl"></i> <a href="https://tinyurl.com/bdcpbxsw" target="_blank">(11) 94454-0021</a>
+        </li>
+        <li>
+          <i class="fas fa-map-marker-alt fa-xl "></i> Poá, São Paulo 
+        </li>
+
+      </ul>
+      <!-- Mapa do Google -->
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58525.03948143566!2d-46.3876483104114!3d-23.53915657640711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7ac1168ca597%3A0xae79aa50cc185227!2zUG_DoSAtIFNQ!5e0!3m2!1spt-BR!2sbr!4v1709589706851!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  </section>
+  
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+      <img src="logo/logoFooter.png" alt="Logo">
+      <p class="footer-description">CRN10-000</p>
+      <div class="footer-menu">
+        
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre Mim</a>
+        <a href="servicos.html">Serviços</a>
+       </div>
+      <div class="social-icons">
+       
+        <a href="https://www.instagram.com/brunag.nutri1?utm_source=qr&igsh=ZGFzd2o4NmgyNjM5" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://tinyurl.com/bdcpbxsw" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p class="copyright" id="copyright"></p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
