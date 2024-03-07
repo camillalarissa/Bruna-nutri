@@ -25,7 +25,6 @@
 }
 
 
-
 .navbar .navbar-nav .nav-link.custom-link {
   color: #91A93F;
   transition: color 0.3s;
@@ -71,7 +70,7 @@
 
 .slide-content {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -88,8 +87,8 @@
 }
 
 .slide-content p {
+
   margin-bottom: 20px;
-  width: 500px;
   font-size: 1.5rem;
   color: #fff;
   letter-spacing: 1px;
@@ -103,7 +102,7 @@
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 400;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -255,8 +254,10 @@
 }
 
 /*CONTATO*/
-#contato {
-  height: 60vh;
+
+.contato-container {
+  margin-bottom: 5rem;
+
 }
 
 #contato input {
@@ -529,14 +530,13 @@ ul {
   font-weight: 800;
   font-family: cursive;
   color: #ff6347;
-  margin-top: 5rem;
   text-align: center;
   margin-bottom: 5rem;
 
 }
 
 .qualidade-de-vida-content h2 {
-  margin-top: 5px;
+
   color: #EF8743;
   font-weight: 600;
   font-size: 25px;
@@ -551,7 +551,7 @@ ul {
 }
 
 .qualidade-de-vida-image img {
-  margin-top: 8rem;
+  margin-top: 2rem;
   margin-right: 10rem;
 
 }
@@ -561,7 +561,7 @@ ul {
 }
 
 .servicos-section, .consulta-individual-section, .qualidade-de-vida-section {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .servicos-content, .consulta-individual-content, .qualidade-de-vida-content {
@@ -690,14 +690,68 @@ input:focus {
 
 
 
-/* Responsividade */
-@media (max-width: 768px) {
-  .nav-link {
-    margin-left: 0;
-    margin-top: 10px;
+/* RESPONSIVIDADE */
+
+/*CONTATO*/
+@media (max-width: 770px) {
+  #contato {
+    padding-bottom: 10px;
   }
 
-  .servicos-content, .consulta-individual-content, .qualidade-de-vida-content {
-    padding-right: 0;
+}
+
+/*SLIDER IMAGENS TEXTO*/
+@media(max-width: 548px) {
+  .slide-content h1 {
+    text-align: center;
+    font-size: 2.5rem;
   }
+
+  .slide-content p {
+    letter-spacing: normal;
+    font-size: 1.1rem;
+  }
+
+  .slide-content button {
+
+    font-size: 1rem;
+  }
+}
+
+/*CARD */
+
+@media(max-width: 1200px) {
+  .card {
+    height: 500px;
+  }
+
+}
+
+@media(max-width:990px) {
+
+  .card-text {
+    letter-spacing: 0.2px;
+  }
+}
+
+/*RESPONSIVIDADE SERVIÇOS*/
+@media(max-width:360px) {
+  .servicos-section h1 {
+    margin-top: 20px;
+  }
+
+  .servicos-content p {
+    margin-top: 30px;
+  }
+
+
+}
+
+/*FALE COMIGO*/
+
+@media(max-width:360px) {
+  .container-fale h1 {
+    margin-top: 7rem;
+  }
+
 }
