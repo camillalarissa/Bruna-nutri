@@ -308,15 +308,12 @@
 
 }
 
-/*FOOTER*/
-
-.logo-footer {
-  width: 30%;
-
-}
 
 .map {
   margin-top: 20px;
+  margin-bottom: 20px;
+
+
 }
 
 iframe {
@@ -324,6 +321,14 @@ iframe {
   height: 100px;
   border: 1px solid #ff6347;
 }
+
+/*FOOTER*/
+
+.logo-footer {
+  width: 30%;
+
+}
+
 
 footer {
   background-color: #9fb557;
@@ -594,7 +599,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+
 
 
 }
@@ -744,6 +749,7 @@ input:focus {
 @media(max-width:410px) {
   .container-fale h1 {
     margin-top: 100px;
+    font-size: 1.8rem;
 
   }
 
