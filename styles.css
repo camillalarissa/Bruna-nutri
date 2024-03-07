@@ -587,9 +587,6 @@ ul {
 
 }
 
-
-
-
 .container-fale {
   max-width: 500px;
   margin: 0 auto;
@@ -678,15 +675,10 @@ input:focus {
 
 
 #contato h3 {
-  margin-bottom: 10px;
   font-family: cursive;
   color: #87a819;
   margin-bottom: 25px;
 }
-
-
-
-
 
 
 
@@ -750,8 +742,7 @@ input:focus {
 /*FALE COMIGO*/
 
 @media(max-width:360px) {
-  .container-fale h1 {
-    margin-top: 7rem;
+  #fale-comigo, #contato {
+    margin-top: 137px;
   }
-
 }
