@@ -741,8 +741,17 @@ input:focus {
 
 /*FALE COMIGO*/
 
-@media(max-width:360px) {
-  #fale-comigo, #contato {
-    margin-top: 137px;
+@media(max-width:410px) {
+  .container-fale h1 {
+    margin-top: 100px;
+
   }
+
+}
+
+@media(max-width:390px) {
+  .fale-caixa {
+    margin-bottom: 50px;
+  }
+
 }
